@@ -1,0 +1,309 @@
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px){
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+}
+.header .navbar-light .navbar-toggler-icon .fa{
+  color: #ffff;
+  margin-top: 5px;
+}
+.banner{
+  padding: 40px 0px;
+}
+.banner h1{
+  margin-top: 0px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.banner p{
+  margin-top: 20px;
+  font-size: 10px;
+  line-height: 20px;
+}
+.banner .btn{
+  padding: 8px 15px;
+  font-size: 8px;
+  margin-top: 20px;
+}
+.inner-content{
+  margin-bottom: 20px;
+}
+.inner-content p{
+  font-size: 11px;
+  line-height: 20px;
+}
+.icon{
+  padding: 40px 0px;
+}
+.mixitup .filter .btn{
+  padding: 8px 10px;
+  font-size: 7px;
+}
+.details{
+  padding: 0px 0px 40px;
+}
+.testimonial .quote{
+  font-size: 14px;
+}
+.testimonial .item .right{
+  margin-top: 11px;
+  margin-left: 20px;
+}
+.testimonial .name{
+  font-size: 10px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+  position: absolute;
+  bottom: -11%;
+  right: 34%;
+}
+.testimonial{
+  padding: 0px 0px 40px;
+}
+.down-text h1{
+  font-size: 24px;
+}
+.down-text h5{
+  font-size: 14px;
+}
+.down-text .btn{
+  padding: 8px 20px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.download{
+  padding: 0px 0px 40px;
+}
+.footer{
+  padding: 40px 0px;
+}
+.footer .foot h5{
+  font-size: 16px;
+}
+.footer .foot p{
+  font-size: 10px;
+}
+.footer ul li a .fa{
+  font: 10px;
+}
+.footer .foot{
+  margin-bottom: 20px;
+}
+.copy-text{
+  font-size: 12px;
+  line-height: 22px;
+}
+.copy{
+  padding: 20px 0px;
+}
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px){
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+}
+.header .navbar-light .navbar-toggler-icon .fa{
+  color: #ffff;
+  margin-top: 5px;
+}
+.banner{
+  padding: 40px 0px;
+}
+.banner h1{
+  margin-top: 0px;
+  font-size: 34px;
+  line-height: 44px;
+}
+.banner p{
+  font: 18px;
+}
+.banner .btn {
+margin-top: 30px;
+}
+.icon{
+  padding: 80px 0px;
+}
+.icon .inner-content{
+  margin-bottom: 30px;
+}
+.mixitup .filter .btn{
+  padding: 8px 10px;
+  font-size: 13px;
+}
+.in-card h5{
+  font-size: 30px;
+}
+.in-card .post{
+  font-size: 18px;
+}
+.in-card ul li a .fa{
+font-size: 24px;
+margin-top: 10px;
+}
+.testimonial .quote{
+  font-size: 24px;
+}
+.testimonial .item .right{
+  margin-top: 14px;
+  margin-left: 36px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+  bottom: -9%;
+  right: 39%;
+}
+.down-text h1{
+  font-size: 21px;
+}
+.down-text h5{
+  font-size: 18px;
+}
+.down-text .btn{
+  padding: 8px 30px;
+  font-size: 14px;
+}
+.download{
+  padding: 0px 0px 40px;
+}
+.footer{
+  padding: 40px 0px;
+}
+.footer .foot h5{
+  font-size: 20px;
+}
+.footer .foot p{
+  font-size: 14px;
+}
+.footer ul li a .fa{
+  font-size: 15px;
+}
+.footer .foot{
+  margin-bottom: 30px;
+}
+.copy{
+  padding: 20px 0px;
+}
+.copy-text p{
+  font-size: 14px;
+  line-height: 24px;
+}
+.details{
+  padding: 0px 0px 40px;
+}
+}
+
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+.header .navbar .navbar-nav .nav-link{
+  text-align: right;
+  margin-right: 22px;
+}
+.header .navbar-light .navbar-toggler-icon .fa{
+  color: #ffff;
+}
+.banner{
+  padding: 40px 0px;
+}
+.banner h1{
+  font-size: 50px;
+  line-height: 60px;
+}
+.banner p{
+  font-size: 16px;
+  line-height: 26px;
+}
+.banner .btn{
+  font-size: 14px;
+}
+.icon .inner-content{
+  margin-bottom: 30px;
+}
+.inner-content p{
+  font-size: 18px;
+  line-height: 28px;
+}
+.inner-content h5{
+  font-size: 25px;
+}
+.mixitup .filter .btn{
+  padding: 12px 25px;
+  font-size: 17px;
+}
+.in-card h5{
+  font-size: 40px;
+}
+.in-card .post{
+  font-size: 22px;
+}
+.in-card .des{
+  font-size: 25px;
+}
+.in-card ul li a .fa{
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+  bottom: -8%;
+  right: 43%;
+}
+.down-text h1{
+  font-size: 31px;
+}
+.footer .foot{
+  margin-bottom: 30px;
+}
+.footer{
+  padding: 40px 0px;
+}
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px){
+.banner h1{
+  margin-top: 0px;
+}
+.icon{
+  padding: 80px 0px;
+}
+.inner-content p{
+  font-size: 13px;
+  line-height: 23px;
+}
+.in-card .des{
+  font-size: 10px;
+  line-height: 20px;
+}
+.testimonial .item .right {
+  margin-top: 32px;
+  margin-left: 88px;
+}
+.testimonial .quote{
+  font-size: 20px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+  bottom: 13%;
+  right: 23%;
+}
+.copy-text p{
+  font-size: 14px;
+  line-height: 24px;
+}
+}
